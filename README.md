@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## `Adding few files to the entire project`
+
+You need to install Node Modules to this entire folder by using command in terminal
+### `npm install --save react react-dom react-scripts`
+
+And you need to add React-Hook-Form to this folder by using command in terminal
+### `npm i react-hook-form`
+
+Then the project will be easily executed.
