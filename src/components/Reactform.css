@@ -1,0 +1,73 @@
+ .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100pvh;
+}
+form {
+    display: inline-flexbox;
+    flex-direction: column;
+    align-items: center;
+}
+.first {
+    width: 600px;
+    height: 40px;
+    margin-top: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}   
+.second {
+    float:left;
+    width: 33.33%;
+} 
+.row:after {
+    width:600px;
+    height: 50px;
+    content: "";
+    display: table;
+    clear: both;
+}
+.submit {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #419bf0;
+    color: white;
+    cursor: pointer;
+}
+.reset {
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.file-upload-input {
+    width: 300px;
+    height: 20px;
+    border: 1px solid #000; 
+}
+
+.Skills {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .allskill{
+    display: flex;
+    gap: 55px;
+    margin-bottom:30px;
+  }
